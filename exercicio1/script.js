@@ -9,15 +9,22 @@ const objeto = {
 
 // A:
 
-const maiuscula = (objetos) =>{
-
+const maiuscula = (parametro1) =>{
     return{
-
         nome: "ASTRODEV",
-        profissao: "Dev das estrelas".toUpperCase(),
-        username: "atrodev_labenu".toUpperCase(),
-        senha: "melhorDeTodos".toUpperCase()
+        profissao:"DEV DAS ESTRELAS",
+        username: "ASTRODEV_LABENU",
+        senha: "MELHORDETODOS"
     }
 }
-
 console.log(maiuscula)
+
+
+// B:
+
+const corrido = (parametros2) =>{
+
+    return console.log(`${objeto.nome} ${objeto.profissao} ${objeto.username} ${objeto.senha}`)
+}
+
+corrido(objeto)
